@@ -1,0 +1,71 @@
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css'); 
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #131315;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: flex;
+    padding: 0;
+}
+
+ul div{
+    width:40px ;
+    height:5px;
+    background-color: #9581F4;
+    margin: auto;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+ul li span{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+     display: flex !important;
+    background: #2a2a2a;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px !important;
+     transition: 1.5s ease-out; 
+} 
+ ul li:hover span{
+    transition: .3s;
+} 
+
+ul li:nth-child(2):hover span{
+    background: #2c3456 !important;
+
+}
+ 
+ul li:nth-child(3):hover span{
+    background: #6A9AEE !important;
+}
+
+ul li:nth-child(4):hover span{
+    background: #66296C !important;
+}
+
+ul li:nth-child(5):hover span{
+    background: #2c3456 !important;
+}
